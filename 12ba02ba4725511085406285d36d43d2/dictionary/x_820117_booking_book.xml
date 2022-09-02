@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Book" max_length="40" name="x_820117_booking_book" sizeclass="0" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Select city" max_length="50" name="selecting_city" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Bangalore" sequence="0" value="01"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" dependent="select_movies" dependent_on_field="select_movies" label="Select city" max_length="32" name="select_city" reference="x_820117_booking_city_list_1" type="reference" use_dependent_field="true"/>
+        <element attributes="encode_utf8=false" label="Select Movies" max_length="32" name="select_movies" reference="x_820117_booking_movies_table" type="reference"/>
+        <index name="index">
+            <element name="select_city"/>
+        </index>
+        <index name="index2">
+            <element name="select_movies"/>
+        </index>
+    </element>
+</database>
