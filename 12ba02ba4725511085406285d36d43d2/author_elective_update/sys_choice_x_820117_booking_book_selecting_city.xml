@@ -20,7 +20,7 @@
             <dependent_value/>
             <element>selecting_city</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Bangalore</label>
             <language>en</language>
             <name>x_820117_booking_book</name>
@@ -31,10 +31,70 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>74789b7e4769511085406285d36d43eb</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 05:19:29</sys_updated_on>
+            <value>01</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>selecting_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mysore</label>
+            <language>en</language>
+            <name>x_820117_booking_book</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 04:58:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>731c29f34761111085406285d36d4397</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 05:19:03</sys_updated_on>
+            <value>mysore</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>selecting_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Shivamogga</label>
+            <language>en</language>
+            <name>x_820117_booking_book</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 04:58:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff1c29f34761111085406285d36d4397</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 05:19:03</sys_updated_on>
+            <value>shivamogga</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>selecting_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bengaluru</label>
+            <language>en</language>
+            <name>x_820117_booking_book</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 05:19:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a601793b4761111085406285d36d436d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-30 10:17:22</sys_updated_on>
-            <value>01</value>
+            <sys_updated_on>2022-09-02 05:19:29</sys_updated_on>
+            <value>bengaluru</value>
         </sys_choice>
     </sys_choice>
 </record_update>

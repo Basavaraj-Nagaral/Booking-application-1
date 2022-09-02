@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="select_theater" table="x_820117_booking_book" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>select_theater</element>
+            <name>x_820117_booking_book</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 05:02:11</sys_created_on>
+            <sys_id>411d69374761111085406285d36d43c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>select_theater</sys_name>
+            <sys_package display_value="Booking App" source="x_820117_booking">12ba02ba4725511085406285d36d43d2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Booking App">12ba02ba4725511085406285d36d43d2</sys_scope>
+            <sys_update_name>sys_choice_x_820117_booking_book_select_theater</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 05:02:11</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_theater</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Theater 1</label>
+            <language>en</language>
+            <name>x_820117_booking_book</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 05:02:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d1d69374761111085406285d36d43c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 05:02:11</sys_updated_on>
+            <value>theater 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_theater</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Theater 2</label>
+            <language>en</language>
+            <name>x_820117_booking_book</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 05:02:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>491d69374761111085406285d36d43c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 05:02:12</sys_updated_on>
+            <value>theater 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_theater</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Theater 3</label>
+            <language>en</language>
+            <name>x_820117_booking_book</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 05:02:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>451d69374761111085406285d36d43e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 05:02:12</sys_updated_on>
+            <value>theater 3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_theater</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Theater 4</label>
+            <language>en</language>
+            <name>x_820117_booking_book</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 05:02:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c11d69374761111085406285d36d43e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 05:02:12</sys_updated_on>
+            <value>theater 4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_theater</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Theater 5</label>
+            <language>en</language>
+            <name>x_820117_booking_book</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 05:02:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>411d69374761111085406285d36d43e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 05:02:12</sys_updated_on>
+            <value>theater 5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_theater</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Theater 6</label>
+            <language>en</language>
+            <name>x_820117_booking_book</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 05:02:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd1d69374761111085406285d36d43e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 05:02:12</sys_updated_on>
+            <value>theater 6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_theater</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Theater 7</label>
+            <language>en</language>
+            <name>x_820117_booking_book</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 05:02:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d1d69374761111085406285d36d43e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 05:02:12</sys_updated_on>
+            <value>theater 7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_theater</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Theater 8</label>
+            <language>en</language>
+            <name>x_820117_booking_book</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 05:02:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c91d69374761111085406285d36d43e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 05:02:12</sys_updated_on>
+            <value>theater 8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_theater</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Theater 9</label>
+            <language>en</language>
+            <name>x_820117_booking_book</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 05:02:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>491d69374761111085406285d36d43e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 05:02:12</sys_updated_on>
+            <value>theater 9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_theater</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_820117_booking_book</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-02 05:32:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>47f3f5fb4761111085406285d36d43d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-02 05:32:22</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

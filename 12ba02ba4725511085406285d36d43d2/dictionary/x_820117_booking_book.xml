@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Book" max_length="40" name="x_820117_booking_book" sizeclass="0" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Select city" max_length="50" name="selecting_city" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="mysore" label="Select city" max_length="50" name="selecting_city" type="string">
             <choice>
-                <element inactive_on_update="false" label="Bangalore" sequence="0" value="01"/>
+                <element inactive="true" inactive_on_update="true" label="Bangalore" sequence="0" value="01"/>
+                <element inactive_on_update="false" label="Mysore" sequence="0" value="mysore"/>
+                <element inactive_on_update="false" label="Shivamogga" sequence="1" value="shivamogga"/>
+                <element inactive_on_update="false" label="Bengaluru" sequence="2" value="bengaluru"/>
             </choice>
         </element>
         <element attributes="encode_utf8=false" dependent="select_movies" dependent_on_field="select_movies" label="Select city" max_length="32" name="select_city" reference="x_820117_booking_city_list_1" type="reference" use_dependent_field="true"/>
         <element attributes="encode_utf8=false" label="Select Movies" max_length="32" name="select_movies" reference="x_820117_booking_movies_table" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Select Shows" max_length="40" name="select_shows" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="theater 1" label="Select theater" max_length="40" name="select_theater" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Theater 1" sequence="0" value="theater 1"/>
+                <element inactive_on_update="false" label="Theater 2" sequence="1" value="theater 2"/>
+                <element inactive_on_update="false" label="Theater 3" sequence="2" value="theater 3"/>
+                <element inactive_on_update="false" label="Theater 4" sequence="3" value="theater 4"/>
+                <element inactive_on_update="false" label="Theater 5" sequence="4" value="theater 5"/>
+                <element inactive_on_update="false" label="Theater 6" sequence="5" value="theater 6"/>
+                <element inactive_on_update="false" label="Theater 7" sequence="6" value="theater 7"/>
+                <element inactive_on_update="false" label="Theater 8" sequence="7" value="theater 8"/>
+                <element inactive_on_update="false" label="Theater 9" sequence="8" value="theater 9"/>
+                <element inactive_on_update="false" label="Other" sequence="9" value="other"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="select_city"/>
         </index>

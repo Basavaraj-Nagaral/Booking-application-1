@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="selecting_city" table="x_820117_booking_book">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="select_shows" table="x_820117_booking_book">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>1</choice>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Select city</column_label>
+        <column_label>Select Shows</column_label>
         <comments/>
         <create_roles/>
-        <default_value>mysore</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -22,14 +22,14 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>selecting_city</element>
+        <element>select_shows</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>50</max_length>
+        <max_length>40</max_length>
         <name>x_820117_booking_book</name>
         <next_element/>
         <primary>false</primary>
@@ -47,16 +47,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-08-30 10:14:14</sys_created_on>
-        <sys_id>43b7df3e4769511085406285d36d43d4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Select city</sys_name>
+        <sys_created_on>2022-09-02 04:58:01</sys_created_on>
+        <sys_id>7b1c29f34761111085406285d36d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Select Shows</sys_name>
         <sys_package display_value="Booking App" source="x_820117_booking">12ba02ba4725511085406285d36d43d2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Booking App">12ba02ba4725511085406285d36d43d2</sys_scope>
-        <sys_update_name>sys_dictionary_x_820117_booking_book_selecting_city</sys_update_name>
+        <sys_update_name>sys_dictionary_x_820117_booking_book_select_shows</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-02 05:43:26</sys_updated_on>
+        <sys_updated_on>2022-09-02 04:58:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
